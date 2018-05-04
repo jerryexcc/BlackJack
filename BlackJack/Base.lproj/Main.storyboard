@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,89 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BlackJack" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="黃筐" translatesAutoresizingMaskIntoConstraints="NO" id="vPx-X0-DOE">
+                                <rect key="frame" x="16" y="537" width="59" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="黃筐" translatesAutoresizingMaskIntoConstraints="NO" id="PQy-y6-1uF">
+                                <rect key="frame" x="83" y="537" width="59" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="黃筐" translatesAutoresizingMaskIntoConstraints="NO" id="RAf-Is-gfQ">
+                                <rect key="frame" x="150" y="537" width="59" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="黃筐" translatesAutoresizingMaskIntoConstraints="NO" id="WCJ-5Z-7RL">
+                                <rect key="frame" x="217" y="537" width="59" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="黃筐" translatesAutoresizingMaskIntoConstraints="NO" id="7oE-ur-7Dq">
+                                <rect key="frame" x="284" y="537" width="59" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="黃筐" translatesAutoresizingMaskIntoConstraints="NO" id="45O-p0-fWG">
+                                <rect key="frame" x="16" y="28" width="59" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="黃筐" translatesAutoresizingMaskIntoConstraints="NO" id="Exo-rh-7Yy">
+                                <rect key="frame" x="83" y="28" width="59" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="黃筐" translatesAutoresizingMaskIntoConstraints="NO" id="QPN-9m-vbW">
+                                <rect key="frame" x="150" y="28" width="59" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="黃筐" translatesAutoresizingMaskIntoConstraints="NO" id="mTE-d6-oyJ">
+                                <rect key="frame" x="217" y="28" width="59" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="黃筐" translatesAutoresizingMaskIntoConstraints="NO" id="RAC-lD-C7K">
+                                <rect key="frame" x="284" y="28" width="59" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card-a01" translatesAutoresizingMaskIntoConstraints="NO" id="MgN-PR-rvR">
+                                <rect key="frame" x="300" y="278" width="59" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sDm-AL-CvM">
+                                <rect key="frame" x="29" y="433" width="61" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.95679875849999996" blue="0.47399283310000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="發牌"/>
+                                <connections>
+                                    <action selector="btnGiveAct:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U2O-im-Zlm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.072534968848550596" green="0.5" blue="0.08143347156167724" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="cardStartPos" destination="MgN-PR-rvR" id="LVP-v7-AUT"/>
+                        <outletCollection property="playerPos" destination="vPx-X0-DOE" collectionClass="NSMutableArray" id="7RY-i1-VgZ"/>
+                        <outletCollection property="playerPos" destination="PQy-y6-1uF" collectionClass="NSMutableArray" id="rAM-e4-SSU"/>
+                        <outletCollection property="playerPos" destination="RAf-Is-gfQ" collectionClass="NSMutableArray" id="9xq-H5-7np"/>
+                        <outletCollection property="playerPos" destination="WCJ-5Z-7RL" collectionClass="NSMutableArray" id="LBF-Js-F7c"/>
+                        <outletCollection property="playerPos" destination="7oE-ur-7Dq" collectionClass="NSMutableArray" id="QEA-n5-l8j"/>
+                        <outletCollection property="npcPos" destination="45O-p0-fWG" collectionClass="NSMutableArray" id="Ico-ev-4sg"/>
+                        <outletCollection property="npcPos" destination="Exo-rh-7Yy" collectionClass="NSMutableArray" id="Zel-dG-tWE"/>
+                        <outletCollection property="npcPos" destination="QPN-9m-vbW" collectionClass="NSMutableArray" id="nM6-bu-7aD"/>
+                        <outletCollection property="npcPos" destination="mTE-d6-oyJ" collectionClass="NSMutableArray" id="5qw-DW-tLR"/>
+                        <outletCollection property="npcPos" destination="RAC-lD-C7K" collectionClass="NSMutableArray" id="qbf-3C-0wV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="card-a01" width="37" height="51"/>
+        <image name="黃筐" width="412" height="578"/>
+    </resources>
 </document>
