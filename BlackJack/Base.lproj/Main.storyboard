@@ -58,7 +58,7 @@
                                 <rect key="frame" x="284" y="28" width="59" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card-a01" translatesAutoresizingMaskIntoConstraints="NO" id="MgN-PR-rvR">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card-e03" translatesAutoresizingMaskIntoConstraints="NO" id="MgN-PR-rvR">
                                 <rect key="frame" x="300" y="278" width="59" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -70,6 +70,90 @@
                                 <connections>
                                     <action selector="btnGiveAct:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U2O-im-Zlm"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yk8-KQ-yfH">
+                                <rect key="frame" x="98" y="433" width="95" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.95679875849999996" blue="0.47399283310000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="實驗dismiss"/>
+                                <connections>
+                                    <action selector="btnTestDismiss:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KgP-kh-VAx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="weU-iI-Q7D">
+                                <rect key="frame" x="300" y="278" width="59" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" backgroundImage="card-e03"/>
+                                <connections>
+                                    <action selector="testBTNAct:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eh6-ZF-Jbd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8OZ-Z9-wPx">
+                                <rect key="frame" x="300" y="278" width="59" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.95679875849999996" blue="0.47399283310000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" backgroundImage="card-e03"/>
+                                <connections>
+                                    <action selector="testBTNAct:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aJU-xx-G0s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="myG-hG-ecl">
+                                <rect key="frame" x="300" y="278" width="59" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.95679875849999996" blue="0.47399283310000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" backgroundImage="card-e03"/>
+                                <connections>
+                                    <action selector="testBTNAct:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bDO-Ju-xRc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sA7-0X-4cx">
+                                <rect key="frame" x="300" y="278" width="59" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.95679875849999996" blue="0.47399283310000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" backgroundImage="card-e03"/>
+                                <connections>
+                                    <action selector="testBTNAct:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kwm-eX-l8B"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NL6-0d-u4r">
+                                <rect key="frame" x="300" y="278" width="59" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.95679875849999996" blue="0.47399283310000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" backgroundImage="card-e03"/>
+                                <connections>
+                                    <action selector="testBTNAct:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Eqs-gf-ian"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RpH-f3-7j8">
+                                <rect key="frame" x="300" y="278" width="59" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.95679875849999996" blue="0.47399283310000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" backgroundImage="card-e03"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yyA-uh-Frk">
+                                <rect key="frame" x="300" y="278" width="59" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.95679875849999996" blue="0.47399283310000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" backgroundImage="card-e03"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bDG-SQ-mvM">
+                                <rect key="frame" x="300" y="278" width="59" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.95679875849999996" blue="0.47399283310000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" backgroundImage="card-e03"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZP3-vO-z3j">
+                                <rect key="frame" x="300" y="278" width="59" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.95679875849999996" blue="0.47399283310000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" backgroundImage="card-e03"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R8w-wM-g8r">
+                                <rect key="frame" x="300" y="278" width="59" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.95679875849999996" blue="0.47399283310000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" backgroundImage="card-e03"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.072534968848550596" green="0.5" blue="0.08143347156167724" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -87,6 +171,16 @@
                         <outletCollection property="npcPos" destination="QPN-9m-vbW" collectionClass="NSMutableArray" id="nM6-bu-7aD"/>
                         <outletCollection property="npcPos" destination="mTE-d6-oyJ" collectionClass="NSMutableArray" id="5qw-DW-tLR"/>
                         <outletCollection property="npcPos" destination="RAC-lD-C7K" collectionClass="NSMutableArray" id="qbf-3C-0wV"/>
+                        <outletCollection property="playerCardSet" destination="weU-iI-Q7D" collectionClass="NSMutableArray" id="XZ9-ho-1om"/>
+                        <outletCollection property="playerCardSet" destination="8OZ-Z9-wPx" collectionClass="NSMutableArray" id="MuP-wE-EGq"/>
+                        <outletCollection property="playerCardSet" destination="myG-hG-ecl" collectionClass="NSMutableArray" id="hzS-Xj-qWS"/>
+                        <outletCollection property="playerCardSet" destination="sA7-0X-4cx" collectionClass="NSMutableArray" id="r62-58-Bu3"/>
+                        <outletCollection property="playerCardSet" destination="NL6-0d-u4r" collectionClass="NSMutableArray" id="JwN-Sj-EZW"/>
+                        <outletCollection property="npcCardSet" destination="RpH-f3-7j8" collectionClass="NSMutableArray" id="Lud-Tb-IHs"/>
+                        <outletCollection property="npcCardSet" destination="yyA-uh-Frk" collectionClass="NSMutableArray" id="eYO-oB-Pce"/>
+                        <outletCollection property="npcCardSet" destination="bDG-SQ-mvM" collectionClass="NSMutableArray" id="zea-ky-prl"/>
+                        <outletCollection property="npcCardSet" destination="ZP3-vO-z3j" collectionClass="NSMutableArray" id="o4y-Df-TlG"/>
+                        <outletCollection property="npcCardSet" destination="R8w-wM-g8r" collectionClass="NSMutableArray" id="K1A-4P-209"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -95,7 +189,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="card-a01" width="37" height="51"/>
+        <image name="card-e03" width="37" height="51"/>
         <image name="黃筐" width="412" height="578"/>
     </resources>
 </document>
